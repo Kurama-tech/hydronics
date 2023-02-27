@@ -7,7 +7,7 @@ import Banner from 'sections/banner';
 import Support from 'sections/support';
 import PremiumFeature from 'sections/premium-feature';
 import AppFeature from 'sections/app-feature';
-import Dashboard from 'sections/dashboard';
+import Products from 'sections/products';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
@@ -22,14 +22,14 @@ export default function IndexPage() {
           description="HYDRONIC SYSTEM HEATING & COOLING
           EQUIPMENT TRADING LLC"
         />
-         <Banner />{/*
-        <Support />
+         <Banner />
+       {/*  <Support /> */}
         <PremiumFeature />
-        <AppFeature />
-        <Dashboard />
-        <Pricing />
-        <Testimonials />
-        <Subscribe /> */}
+        {/*  <AppFeature />*/}
+        <Products /> 
+        {/* <Pricing /> */}
+        <Testimonials /> 
+        <Subscribe />
       </Layout>
     </ThemeProvider>
   );

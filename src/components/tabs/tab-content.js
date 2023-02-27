@@ -21,7 +21,7 @@ export default TabContent;
 const styles = {
   tabContent: {
     display: ['flex'],
-    flexDirection: ['column-reverse', null, null, null, 'row'],
+    flexDirection: [ null, null, null, 'row'],
     alignItems: 'flex-start',
   },
   content: {

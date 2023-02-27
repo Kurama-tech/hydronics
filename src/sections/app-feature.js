@@ -42,8 +42,8 @@ const AppFeature = () => {
             <SectionHeading
               emoji={emoji}
               sx={styles.heading}
-              title="Built in one app to make instant reply with in lowest minutes"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              title="VISION"
+              description=""
             />
             <Box sx={styles.features}>
               {data?.map(({ id, label }) => (
