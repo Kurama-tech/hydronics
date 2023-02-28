@@ -11,20 +11,20 @@ const menuItems = [
     label: 'Home',
   },
   {
-    path: '#advertise',
-    label: 'Advertise',
+    path: '#about',
+    label: 'About',
   },
   {
-    path: '#supports',
-    label: 'Supports',
+    path: '#products',
+    label: 'Products',
   },
   {
-    path: '#marketing',
-    label: 'Marketing',
+    path: '#partners',
+    label: 'Partners',
   },
   {
-    path: '#faq',
-    label: 'FAQ',
+    path: '#contact',
+    label: 'Contact',
   },
 ];
 

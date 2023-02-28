@@ -64,7 +64,7 @@ const data2 = [
 
 const PremiumFeature = () => {
   return (
-    <section id="features" sx={styles.section}>
+    <section id="about" sx={styles.section}>
       <Container>
       <SectionHeading
           sx={styles.heading2}

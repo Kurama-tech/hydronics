@@ -5,19 +5,19 @@ export default [
     label: 'Home',
   },
   {
-    path: 'support',
-    label: 'Support',
+    path: 'about',
+    label: 'About',
   },
   {
-    path: 'features',
-    label: 'Feature',
+    path: 'products',
+    label: 'Products',
   },
   {
-    path: 'pricing',
-    label: 'Pricing',
+    path: 'partners',
+    label: 'Partners',
   },
   {
-    path: 'testimonials',
-    label: 'Testimonials',
+    path: 'contact',
+    label: 'Contact',
   },
 ];

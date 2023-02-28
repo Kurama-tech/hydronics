@@ -38,7 +38,7 @@ const Banner = () => {
               engineered for your special needs.
             </Text>
             <SubscriptionForm sx={styles.subscriptionForm} />
-            <Flex sx={styles.sponsoredBy}>
+            {/* <Flex sx={styles.sponsoredBy}>
               <Text as="span">Our Partners:</Text>
               <Flex sx={styles.sponsor}>
                 {logos?.map((logo, index) => (
@@ -47,7 +47,7 @@ const Banner = () => {
                   </Flex>
                 ))}
               </Flex>
-            </Flex>
+            </Flex> */}
           </Box>
           <Flex as="figure" sx={styles.bannerImage}>
             <Image src={illustration} alt="illustration" />

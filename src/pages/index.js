@@ -11,6 +11,7 @@ import Products from 'sections/products';
 import Pricing from 'sections/pricing';
 import Testimonials from 'sections/testimonials';
 import Subscribe from 'sections/subscribe';
+import Partners from 'sections/partners';
 
 export default function IndexPage() {
   return (
@@ -27,9 +28,10 @@ export default function IndexPage() {
         <PremiumFeature />
         {/*  <AppFeature />*/}
         <Products /> 
-        {/* <Pricing /> */}
-        <Testimonials /> 
+        {/* <Pricing /> 
+        <Testimonials /> */}
         <Subscribe />
+        <Partners />
       </Layout>
     </ThemeProvider>
   );

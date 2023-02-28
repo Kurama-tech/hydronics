@@ -6,14 +6,14 @@ import SubscriptionForm from 'components/subscription-form';
 
 const Subscribe = () => {
   return (
-    <Box as="section" sx={styles.section}>
+    <Box as="section" id="contact" sx={styles.section}>
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Subscribe to get notified about update"
-          description="By subscribing with your mail, you will accept our privacy policy"
+          title="Contact us"
+          description="you can contact faraz for details he didnt provide me"
         />
-        <SubscriptionForm sx={styles.subscriptionForm} />
+       {/*  <SubscriptionForm sx={styles.subscriptionForm} /> */}
       </Container>
     </Box>
   );
