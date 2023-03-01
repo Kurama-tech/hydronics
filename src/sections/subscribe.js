@@ -31,14 +31,14 @@ const Subscribe = () => {
         <Flex sx={{ alignItems: 'center', my: 2 }}>
           <FaPhone sx={{ mr: 2 }} color="white" />
           <Box>
-          <Text variant="heading" color="white" >+971 529620433</Text>
+          <Text variant="heading" color="white" href="tel:+971529620433" >+971 529620433</Text>
           <br />
           </Box>
         </Flex>
         <Flex sx={{ alignItems: 'center', my: 2 }}>
           <FaEnvelope sx={{ mr: 2 }} color="white" />
           <Box>
-            <Text variant="heading" color="white">info@hydronicsystems.ae</Text>
+            <Text variant="heading" color="white" href="mailto:info@hydronicsystems.ae">info@hydronicsystems.ae</Text>
           </Box>
         </Flex>
       </Box>
