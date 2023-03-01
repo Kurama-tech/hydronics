@@ -1,8 +1,9 @@
 /** @jsx jsx */
-import { jsx, Box, Container } from 'theme-ui';
+import { jsx, Box, Container, Grid, Text, Flex } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import SubscriptionForm from 'components/subscription-form';
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
 
 const Subscribe = () => {
   return (
@@ -11,9 +12,59 @@ const Subscribe = () => {
         <SectionHeading
           sx={styles.heading}
           title="Contact us"
-          description="you can contact faraz for details he didnt provide me"
+          description=""
         />
-       {/*  <SubscriptionForm sx={styles.subscriptionForm} /> */}
+
+<Grid
+      columns={['1fr', '1fr 2fr']}
+      sx={{ gap: 4, py: 4, maxWidth: 1024, margin: '0 auto' }}
+    >
+      <Box>
+        <Flex sx={{ alignItems: 'center', my: 2 }}>
+          <FaMapMarkerAlt sx={{ mr: 2 }} color="white" />
+          <Box>
+          <Text variant="heading" color="white">5th floor Rasis Business Center</Text>
+          <Text variant="heading" color="white">Al barsha -1, Dubai, UAE </Text>
+          <br />
+          </Box>
+        </Flex>
+        <Flex sx={{ alignItems: 'center', my: 2 }}>
+          <FaPhone sx={{ mr: 2 }} color="white" />
+          <Box>
+          <Text variant="heading" color="white" >+971 529620433</Text>
+          <br />
+          </Box>
+        </Flex>
+        <Flex sx={{ alignItems: 'center', my: 2 }}>
+          <FaEnvelope sx={{ mr: 2 }} color="white" />
+          <Box>
+            <Text variant="heading" color="white">info@hydronicsystems.ae</Text>
+          </Box>
+        </Flex>
+      </Box>
+      <Box>
+        <Box
+          sx={{
+            position: 'relative',
+            height: 0,
+            paddingBottom: '56.25%',
+            marginTop: 4,
+          }}
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.8459161291967!2d55.1987259!3d25.1070767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b7af47fdcf5%3A0x5e1780e9803c797f!2sRasis%20Business%20Center!5e0!3m2!1sen!2sae!4v1677676429483!5m2!1sen!2sae"
+            title="Google Maps"
+            width="100%"
+            height="100%"
+            frameBorder="0"
+            style={{ position: 'absolute', top: 0, left: 0 }}
+            allowFullScreen=""
+            aria-hidden="false"
+            tabIndex="0"
+          />
+        </Box>
+      </Box>
+    </Grid>
       </Container>
     </Box>
   );
