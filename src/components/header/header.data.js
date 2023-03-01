@@ -13,11 +13,11 @@ export default [
     label: 'Products',
   },
   {
-    path: 'partners',
-    label: 'Partners',
-  },
-  {
     path: 'contact',
     label: 'Contact',
+  },
+  {
+    path: 'partners',
+    label: 'Partners',
   },
 ];
