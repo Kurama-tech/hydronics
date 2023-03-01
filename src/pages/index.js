@@ -18,9 +18,9 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="HYDRONIC SYSTEM HEATING & COOLING
+          title="HYDRONIC SYSTEM COOLING & HEATING
           EQUIPMENT TRADING LLC"
-          description="HYDRONIC SYSTEM HEATING & COOLING
+          description="HYDRONIC SYSTEM COOLING & HEATING
           EQUIPMENT TRADING LLC"
         />
          <Banner />

@@ -58,16 +58,14 @@ const Partners = () => {
           title="Our Partners"
           description="Who We are proud to be in busniess with"
         />
-        <Flex sx={styles.sponsoredBy}>
-              <Flex sx={styles.sponsor}>
+        <Flex sx={styles.partnersflex}>
                 {logos?.map((logo, index) => (
-                  <Flex as="figure" key={index}>
+                  <Box as="figure" sx={styles.partnersitem} key={index}>
                     <Image src={logo.src} alt={logo.name} />
-                  </Flex>
+                  </Box>
                 ))}
-              </Flex>
         </Flex>
-      </Container>
+    </Container>
     </Box>
   );
 };
@@ -89,15 +87,28 @@ const styles = {
       lineHeight: 2.62,
       color: rgba('#566272', 0.6),
     },
+    
   },
   sponsor: {
     alignItems: 'center',
+    display: 'flex',
     figure: {
       ml: [2, null, null, null, 4, 5],
       img: {
         maxWidth: ['60px', null, null, null, '80px', '100%'],
       },
     },
+  },
+  partnersflex: {
+        display: "flex",
+        flexDirection: ["column", "row"],
+        alignItems: "center",
+        justifyContent: "space-between",
+        padding: 3,
+  },
+  partnersitem: {
+    flex: "1",
+    padding: 2,
   },
   heading: {
     mb: [7, null, null, 8, 9, 10],

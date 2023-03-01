@@ -30,7 +30,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.bannerContent}>
             <Heading as="h1">
-            Hydronic System Heating & Cooling Equipment Trading LLC
+            Hydronic System Cooling & Heating Equipment Trading LLC
             </Heading>
             <Text as="p">
               Get your equipments from the victory of the managements 

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { useRef, useEffect, useState } from 'react';
 import { rgba } from 'polished';
-import { jsx, Box, Container, Card, Text, Flex, Heading, Grid, Image} from 'theme-ui';
+import { jsx, Box, Container, Card, Text, Flex, Heading, Grid} from 'theme-ui';
 import Tabs, { TabPane } from 'rc-tabs';
 import SectionHeading from 'components/section-heading';
 import ProductInd from 'components/cards/productcard';
@@ -51,6 +51,20 @@ import vrv3 from 'assets/images/AHV/VRV/3.jpeg'
 import ctrl1 from 'assets/images/AHV/ControlSystems/1.jpeg'
 import ctrl2 from 'assets/images/AHV/ControlSystems/2.jpeg'
 import ctrl3 from 'assets/images/AHV/ControlSystems/3.jpeg'
+import ac1 from 'assets/images/Pumps/Airconditioning/1.png'
+import ac2 from 'assets/images/Pumps/Airconditioning/2.png'
+import ac3 from 'assets/images/Pumps/Airconditioning/3.png'
+import cool1 from 'assets/images/Pumps/Cooling/1.png'
+import cool2 from 'assets/images/Pumps/Cooling/2.png'
+import cool3 from 'assets/images/Pumps/Cooling/3.png'
+import dhw1 from 'assets/images/Pumps/Domestichotwater/1.png'
+import dhw2 from 'assets/images/Pumps/Domestichotwater/2.png'
+import dhw3 from 'assets/images/Pumps/Domestichotwater/3.png'
+import heat1 from 'assets/images/Pumps/Heating/1.png'
+import heat2 from 'assets/images/Pumps/Heating/2.png'
+import heat3 from 'assets/images/Pumps/Heating/3.png'
+import rain1 from 'assets/images/Pumps/Rainwater/1.png'
+import rain2 from 'assets/images/Pumps/Rainwater/2.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -153,6 +167,25 @@ const data = [
         ]
       },
   },
+  {
+    id: 6,
+    tabPane: [
+      {
+        title: 'Pumps',
+      },
+    ],
+    tabContent: 
+      {
+        products: [
+            {id: 1,name: "Air conditioning", img: [ac1, ac2, ac3]},
+            {id: 2,name: "Cooling", img: [cool1, cool2, cool3]},
+            {id: 3,name: "Domestic hot water", img: [dhw1, dhw2, dhw3]},
+            {id: 4,name: "Heating", img: [heat1, heat2, heat3]},
+            {id: 5,name: "Rainwater", img: [rain1, rain2]},
+            //{name: "Survey Equipments", img: ''}
+        ]
+      },
+  },
 ];
 
 const Dashboard = () => {
@@ -199,6 +232,7 @@ const Dashboard = () => {
                         </Box>
                     ))}
                 </Grid>
+                <br />
             </TabPane>
           ))}
         </Tabs>
