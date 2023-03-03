@@ -214,7 +214,7 @@ const Dashboard = () => {
                       
                          <Box key={item.id} sx={styles.testimonial}>
                           <Box>
-                          <Carousel showThumbs={false} swipeable={true} >
+                          <Carousel showThumbs={false} swipeable={true} autoPlay showArrows={false}>
                             {item.img.map((i)=>{
                               return(
                                 <div>
