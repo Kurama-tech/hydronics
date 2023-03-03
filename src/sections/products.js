@@ -218,7 +218,7 @@ const Dashboard = () => {
                             {item.img.map((i)=>{
                               return(
                                 <div>
-                                  <img  src={i} width='100%' height='50%'/>
+                                  <img  src={i} style={{objectFit: 'contain'}} width='auto' height='200px'/>
                                 </div>
                               )
                             })}
