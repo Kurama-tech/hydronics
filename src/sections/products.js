@@ -28,6 +28,13 @@ import OS1 from 'assets/images/Filters/OIL/OS1.jpg'
 import OS2 from 'assets/images/Filters/OIL/OS2.jpeg'
 import cm1 from 'assets/images/Compressors/C1.jpg'
 import cm2 from 'assets/images/Compressors/C2.jpg'
+import cm3 from 'assets/images/Compressors/C3.jpeg'
+import cm4 from 'assets/images/Compressors/C4.jpeg'
+import cm5 from 'assets/images/Compressors/C5.jpeg'
+import s1 from 'assets/images/sensors/S1.jpeg'
+import s2 from 'assets/images/sensors/S2.jpeg'
+import s3 from 'assets/images/sensors/S3.jpeg'
+import s4 from 'assets/images/sensors/S4.jpeg'
 import cl1 from 'assets/images/POOLS/CLEANING/1.jpeg'
 import cl2 from 'assets/images/POOLS/CLEANING/2.gif'
 import cl3 from 'assets/images/POOLS/CLEANING/3.jpeg'
@@ -122,6 +129,9 @@ const data = [
         products: [
             {id: 1,name: "Compressors for air conditioning", img: [cm1]},
             {id: 2,name: "Compressors for refrigeration", img: [cm2]},
+            {id: 3,name: "Hydrocarbon Compressors", img: [cm3]},
+            {id: 4,name: "Mobile DC Compressors", img: [cm4]},
+            {id: 5,name: "Telecom DC Compressors", img: [cm5]},
         ]
       },
   },
@@ -183,6 +193,24 @@ const data = [
             {id: 4,name: "Heating", img: [heat1, heat2, heat3]},
             {id: 5,name: "Rainwater", img: [rain1, rain2]},
             //{name: "Survey Equipments", img: ''}
+        ]
+      },
+  },
+  {
+    id: 7,
+    tabPane: [
+      {
+        title: 'Sensors and Transmitters',
+      },
+    ],
+    tabContent: 
+      {
+        products: [
+            {id: 1,name: "Air conditioning & refrigeration transmitters", img: [s1]},
+            {id: 1,name: "Liquid Level Sensors", img: [s2]},
+            {id: 1,name: "Temperature Sensors for Cooling", img: [s3]},
+            {id: 1,name: "The Danfoss gas detecting sensor ", img: [s4]},
+            
         ]
       },
   },
